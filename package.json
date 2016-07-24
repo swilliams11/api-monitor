@@ -1,0 +1,31 @@
+{
+  "name": "api-monitor",
+  "version": "1.0.0",
+  "description": "An API monitor that allows you to create probes for your API and receive alerts for failures.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swilliams11/api-monitor.git"
+  },
+  "keywords": ["api", "apis", "api monitor"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swilliams11/api-monitor/issues"
+  },
+  "maintainers": ["Sean Williams"],
+  "author": "Sean Williams",
+  "homepage": "https://github.com/swilliams11/api-monitor#readme"
+
+"dependencies": {
+    "apigee-sdk-mgmt-api": "^1.1.0",
+    "async": "^0.9.0",
+    "blanket": "^1.1.6",
+    "chai": "^1.9.1",
+    "chai-http": "^1.0.0",
+    "curl-cmd": "0.0.0",
+ }
+}
