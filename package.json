@@ -1,6 +1,6 @@
 {
   "name": "api-monitor",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "An API monitor that allows you to create probes for your API and receive alerts for failures.",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,8 @@
   "homepage": "https://github.com/swilliams11/api-monitor#readme"
 
 "dependencies": {
-    "apigee-sdk-mgmt-api": "^1.1.0",
     "async": "^0.9.0",
-    "blanket": "^1.1.6",
-    "chai": "^1.9.1",
-    "chai-http": "^1.0.0",
     "curl-cmd": "0.0.0",
+    "commander":"^2.9.0"
  }
 }
